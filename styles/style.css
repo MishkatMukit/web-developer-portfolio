@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#i {
+    color: rgba(253, 110, 10, 1);
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li>a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.primary-button {
+    background-color: rgba(253, 110, 10, 1);
+    color: white;
+    padding: 18px 35px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dark-1 {
+    color: rgba(71, 71, 71, 1);
+}
+
+.dark-2 {
+    color: rgba(117, 117, 117, 1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 130px 200px;
+}
+.banner-greet {
+    color: rgba(71, 71, 71, 1);
+
+    font-family: Open Sans;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.banner-title {
+    color: rgba(24, 24, 24, 1);
+
+    font-family: Open Sans;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    color: rgba(117, 117, 117, 1);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+.banner-dp{
+    width: 450px;
+}
+.banner-content{
+    max-width: 700px;
+    margin: 185px 0px;
+}
+.header{
+    background-color: rgba(255, 248, 243, 1);;
+    background-image: url(/Assets/developer.png), url(/Assets/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom left, bottom right;
+    margin-left: 10px;
+    
+}
