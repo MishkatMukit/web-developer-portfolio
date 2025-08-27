@@ -220,3 +220,30 @@ main section{
     margin-top: 30px;
     
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 113px;
+}
+.experience{
+    border-bottom: 1px solid  rgba(209, 209, 209, 1);
+}
+.resume-col-title{
+    color: rgba(71, 71, 71, 1);
+    font-size: 35px;
+}
+.experience-title{
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    margin-top: 30px;
+}
+.experience-subtitle{
+    color: rgba(117, 117, 117, 1);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+    margin: 20px 0px 25px;
+
+}
