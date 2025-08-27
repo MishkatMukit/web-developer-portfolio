@@ -173,77 +173,164 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    
+
 }
-.item-info{
+
+.item-info {
     margin-right: 30px;
 
 }
 
-.item-title {
-
-}
+.item-title {}
 
 .item-description {
-    color : rgba(24, 24, 24, 1);
+    color: rgba(24, 24, 24, 1);
     font-weight: 600;
 }
-.what-i-do{
-    margin : 130px 0px 50px;
+
+.what-i-do {
+    margin: 130px 0px 50px;
 
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 24px;
     margin-top: 50px;
 }
-.skill{
-    padding: 30px ;
+
+.skill {
+    padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
     border-radius: 5px;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
-.skill-title{
+
+.skill-title {
     margin: 30px 0px;
     font-size: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: rgba(117, 117, 117, 1);
     font-size: 16px;
     line-height: 30px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    
+
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 24px;
     margin-top: 113px;
 }
-.experience{
-    border-bottom: 1px solid  rgba(209, 209, 209, 1);
+
+.experience {
+    border-bottom: 1px solid rgba(209, 209, 209, 1);
 }
-.resume-col-title{
+
+.resume-col-title {
     color: rgba(71, 71, 71, 1);
     font-size: 35px;
 }
-.experience-title{
+
+.experience-title {
     color: rgba(71, 71, 71, 1);
     font-size: 25px;
     margin-top: 30px;
 }
-.experience-subtitle{
+
+.experience-subtitle {
     color: rgba(117, 117, 117, 1);
     margin-top: 10px;
     font-size: 20px;
 }
-.experience-description{
+
+.experience-description {
     color: rgba(117, 117, 117, 1);
     margin: 20px 0px 25px;
 
+}
+
+.cv-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    background: rgba(255, 248, 243, 1);
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-col {
+    width: 50%;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer input[type="text"],
+input[type="email"] {
+    height: 64px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+footer input,
+textarea {
+    border: none;
+}
+
+footer textarea {
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    text-align: left;
+    padding: 8px 25px;
+    margin-bottom: 24px;
+}
+.social-title{
+     color: rgba(24, 24, 24, 1);
+    font-family: Open Sans;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.socials a>img {
+    margin-right: 24px;
+}
+
+.social-description {
+    color: rgba(71, 71, 71, 1);
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px 0px 20px;
 }
