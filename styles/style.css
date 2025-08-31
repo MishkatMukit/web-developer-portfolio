@@ -127,7 +127,7 @@ nav ul {
 .header {
     background-color: rgba(255, 248, 243, 1);
     ;
-    background-image: url(Assets/developer.png), url(Assets/header_bg.png);
+    background-image: url(/Assets/developer.png), url(/Assets/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
     margin-left: 10px;
@@ -285,7 +285,7 @@ footer input[type="text"],
 input[type="email"] {
     height: 64px;
     border-radius: 5px;
-    padding: 8px 25px;
+    padding: 8px 22px;
     color: rgba(117, 117, 117, 1);
     font-family: Open Sans;
     font-size: 16px;
@@ -309,8 +309,9 @@ footer textarea {
     padding: 8px 25px;
     margin-bottom: 24px;
 }
-.social-title{
-     color: rgba(24, 24, 24, 1);
+
+.social-title {
+    color: rgba(24, 24, 24, 1);
     font-family: Open Sans;
     font-size: 33px;
     font-weight: 700;
@@ -319,6 +320,7 @@ footer textarea {
     text-align: left;
     margin-bottom: 30px;
 }
+
 .socials a>img {
     margin-right: 24px;
 }
@@ -333,4 +335,42 @@ footer textarea {
     letter-spacing: 0%;
     text-align: left;
     margin: 30px 0px 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .skill-container,
+    .resume-container,
+    footer {
+        flex-direction: column;
+    }
+
+    .skill-container,
+    .resume-container,
+    .section-description {
+        padding: 20px;
+        max-width: calc(100% - 40px);
+    }
+
+    footer,
+    .about-me {
+        padding: 20px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    input[type="email"] {
+        max-width: calc(100% - 40px);
+    }
+    .about-item{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
