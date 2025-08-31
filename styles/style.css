@@ -114,7 +114,11 @@ nav ul {
     margin-bottom: 30px;
 
 }
-
+.banner-dp{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
 .banner-dp  img{
     width: 450px;
 }
