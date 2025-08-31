@@ -115,7 +115,7 @@ nav ul {
 
 }
 
-.banner-dp {
+.banner-dp  img{
     width: 450px;
 }
 
@@ -342,8 +342,52 @@ footer textarea {
 
 @media screen and (max-width:576px) {
 
+    .header{
+        background-image: none;
+        
+        
+    }
+    .banner-content{
+        padding: 20px;
+        max-width: calc(100% - 40px);
+        margin :40px auto;
+
+    }
+    .banner{
+        padding: 0px;
+        margin: 0px;
+    }
+    .banner-dp{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: url('../Assets/developer.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom left;
+        
+    }
+    .banner-dp img{
+        width: 70%;
+        
+    }
+    nav{
+        margin: 0px;
+        padding-top: 20px;
+    }
+    nav>ul{
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+    }
+    nav>ul li{
+        margin-right: 10px;
+    }
     .skill-container,
     .resume-container,
+    .banner,
     footer {
         flex-direction: column;
     }
@@ -352,7 +396,7 @@ footer textarea {
     .resume-container,
     .section-description {
         padding: 20px;
-        max-width: calc(100% - 40px);
+        width: calc(100% - 50px);
     }
 
     footer,
