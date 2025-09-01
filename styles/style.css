@@ -343,27 +343,36 @@ footer textarea {
 .hide {
     display: none;
 }
-
+/* responsiveness--------------------------------------------- */
 @media screen and (max-width:576px) {
-
+    main section{
+        margin: 50px 0px 50px;
+    }
     .header{
+        margin-left: 0px;
+        width: 100%;
         background-image: none;
-        
-        
+        padding: 20px;
+        padding-top: 0px;
     }
     .banner-content{
-        padding: 20px;
-        max-width: calc(100% - 40px);
-        margin :40px auto;
+        /* padding: 20px; */
+        width: 100%;
+        margin: 0px;
+        
 
     }
+    .banner-content .primary-button{
+        margin-bottom: 10px;
+    }
     .banner{
-        padding: 0px;
+        width: 100%;
+        /* padding: 0px; */
         margin: 0px;
+        justify-content: space-between;
     }
     .banner-dp{
-        padding: 0px;
-        margin: 0px;
+        margin-top: 20px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -374,37 +383,58 @@ footer textarea {
         
     }
     .banner-dp img{
-        width: 70%;
+        width: 280px;
         
     }
     nav{
+        flex-direction: column;
         margin: 0px;
-        padding-top: 20px;
+        gap: 10px
+        
+        
     }
-    nav>ul{
+    nav .primary-button{
+        ;
+    }
+    nav ul{
+        margin-bottom: 10px;
         display: flex;
-        margin: 0px;
-        justify-content: space-between;
+        gap: 20px;
+        
+        
     }
-    nav>ul li{
-        margin-right: 10px;
+    nav ul>li{
+        margin-right: 0px;
+    }
+    .skills{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .resume{
+        padding: 20px;
+        width: 100%;
     }
     .skill-container,
     .resume-container,
     .banner,
+    .section-description,
     footer {
         flex-direction: column;
+        padding: 20px;
+        width: calc(100% - 40px);
     }
 
-    .skill-container,
-    .resume-container,
-    .section-description {
-        padding: 20px;
-        width: calc(100% - 50px);
+    .section-description{
+        margin: 0px auto;
     }
 
     footer,
     .about-me {
+        width: 100%;
+        margin: 0px auto;
         padding: 20px;
     }
 
@@ -417,7 +447,12 @@ footer textarea {
         max-width: calc(100% - 40px);
     }
     .about-item{
+        margin: 0px;
+        align-items: center;
         flex-direction: column;
         gap: 20px;
+    }
+    .item-info{
+        margin: 0px;
     }
 }
